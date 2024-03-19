@@ -1,0 +1,17 @@
+
+.speedDial {
+    position: absolute;
+    right: 3vmax;
+    top: 1.5vmax;
+    color: black !important;
+  }
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    color: black !important;
+  }
+  .container{
+    size: 5cqmax;
+  }

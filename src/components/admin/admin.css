@@ -1,0 +1,42 @@
+.usercontainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    background-color: rgb(18, 136, 191);
+  }
+  .container{
+    position: center;
+  }
+  .row{
+    display: inline;
+    height: min-content;
+    width: min-content;
+    background-color: rgb(18, 136, 191);
+  }
+  .mydiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 7%;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+  }
+  .homescreen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(251, 251, 251);
+  
+  }
+  .item{
+    width:30%;
+    margin:5px;
+  }
+  .card {
+    padding: 100px;
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+  }
